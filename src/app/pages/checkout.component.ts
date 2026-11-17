@@ -6,7 +6,7 @@ import { StoreService } from '../core/store.service';
 import { CheckoutAddress, RazorpayCheckout } from '../core/models';
 
 @Component({
-  standalone: true, imports: [FormsModule, CurrencyPipe, RouterLink],
+  standalone: true, imports: [FormsModule,  RouterLink],
   template: `
   <section class="checkout-shell">
     <div><p class="eyebrow">SECURE CHECKOUT</p><h1>Delivery details</h1><p class="muted">Enter the address where you would like your order delivered.</p></div>
