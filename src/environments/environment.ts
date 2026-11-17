@@ -1,1 +1,1 @@
-export const environment = { production: false, apiBaseUrl: 'msrstore.runasp.net' };
+export const environment = { production: true, apiBaseUrl: 'https://msrstore.runasp.net' };
